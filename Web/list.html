@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Playlist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="playlist">
+    <h2 id="Song">My Playlist</h2>
+    <input type="text" class="search-bar" placeholder="Search for a song...">
+    
+    <div class="song">
+        <div>
+            <span class="song-title">Sining</span>
+            <span class="artist-name">Dionela</span>
+        </div>
+        <button class="delete-button">Delete</button>
+    </div>
+    <div class="song">
+        <div>
+            <span class="song-title">Levitating</span>
+            <span class="artist-name">Dua Lipa</span>
+        </div>
+        <button class="delete-button">Delete</button>
+    </div>
+    <div class="song">
+        <div>
+            <span class="song-title">Shape of You</span>
+            <span class="artist-name">Ed Sheeran</span>
+        </div>
+
+        <button class="delete-button" id="add-button">Delete</button>
+    </div>
+</div>
+
+<div class="add-to-playlist">
+    <h2>Add To Playlist</h2>
+    <input type="text" id="new-title" placeholder="Enter song title">
+    <input type="text" id="new-artist" placeholder="Enter artist name">
+    <button type="button" id="add-button">Add</button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</body>
+</html>
+
