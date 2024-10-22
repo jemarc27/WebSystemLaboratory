@@ -7,3 +7,11 @@
     margin-bottom: 2rem;
     margin-top: 2rem
 }
+
+.rounded-img {
+    border-radius: 50%;
+    width: 300px; /* Adjust size as needed */
+    height: 500px; /* Adjust size as needed */
+    object-fit: cover; /* Ensures the image covers the area */
+}
+
